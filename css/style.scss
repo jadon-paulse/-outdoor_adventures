@@ -1,4 +1,37 @@
+$primColor: #6200EE;
+$secColor: #2D5172;
+
+
 body{
-    background-image: url("https://www.capetownmagazine.com/media_lib/preview/2288ff775b0c738a902bfa58b74fc2f8.preview.jpg");
+    background-image: url("https://i.imgur.com/7pnuSYE.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
+h1{
+    font-size: 100px;
+    font-weight: 600px;
+    color: $primColor;
+    text-align: center;
+}
+
+nav ul{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4,1fr);
+    list-style-type: none;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+li a{
+  
+    color: $secColor;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    background-color: black;
+}
+
