@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://i.imgur.com/7pnuSYE.jpg");
+  background-image: url("../images/177760.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -14,9 +14,11 @@ nav ul {
   grid-template-rows: 50px;
   grid-template-columns: repeat(4, 1fr);
   list-style-type: none;
-  width: 100%;
+  width: 85%;
   margin-left: 150px;
-  padding: 10px; }
+  padding: 10px;
+  position: sticky;
+  top: 0; }
 
 li a {
   color: #2D5172;
@@ -27,8 +29,7 @@ li a {
 /*this is the new version*/
 .dropbtn {
   background-color: transparent;
-  color: #0a0404;
-  padding: 16px;
+  color: red;
   font-size: 16px;
   border: none;
   cursor: pointer; }
@@ -57,5 +58,19 @@ li a {
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41; }
+
+.contains {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px; }
+
+.img1 {
+  grid-column: 1/2; }
+
+img {
+  display: block;
+  width: 100%;
+  height: 400px; }
 
 /*# sourceMappingURL=style.css.map */
