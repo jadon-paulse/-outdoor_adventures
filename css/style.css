@@ -15,14 +15,47 @@ nav ul {
   grid-template-columns: repeat(4, 1fr);
   list-style-type: none;
   width: 100%;
-  background-color: black;
+  margin-left: 150px;
   padding: 10px; }
 
 li a {
   color: #2D5172;
   text-align: center;
   text-decoration: none;
-  color: red;
-  background-color: black; }
+  color: red; }
+
+/*this is the new version*/
+.dropbtn {
+  background-color: transparent;
+  color: #0a0404;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41; }
 
 /*# sourceMappingURL=style.css.map */
